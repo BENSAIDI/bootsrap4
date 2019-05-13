@@ -1,6 +1,20 @@
-.list-style{
-
-
-justify-content: flex-end;
+.row-header{
+/*0 px and auto means that the top and bottom have 0 px and the rest of the space in the right and left should be the same*/
+	margin: 0px auto;
+	padding:0px auto;
+    
 
 }
+.row-content{
+
+	margin: 0px auto;
+    padding:50px  auto;
+    border-bottom: 1px solid gray;
+    min-height: 400px;
+}
+.footer{
+	margin:0px auto;
+	padding: 20px 0 auto;
+    background-color: green;
+}
+

@@ -20,7 +20,7 @@
 
     <header class="jumbotron">
         <div class="container align-items-center">
-            <div class="row">
+            <div class="row row-header">
                 <div class="col-12 col-sm-6 col-md-4">
 
                     <h1>Ristorante con Fusion</h1>
@@ -33,7 +33,7 @@
     </header>
 
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center row-content">
             <div class="col-12 col-sm-4">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
@@ -44,7 +44,7 @@
         </div>
 
 
-        <div class="row align-items-center">
+        <div class="row align-items-center row-content">
             <div class="col-12 col-sm-4">
                 <h3>This Month's Promotions</h3>
             </div>
@@ -54,7 +54,7 @@
             </div>
         </div>
 
-        <div class="row align-items-center">
+        <div class="row align-items-center row-content">
             <div class="col-12 col-sm-5">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
@@ -66,11 +66,12 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <div class="row align-items-center">             
+            <div class="row align-items-center row-content">     
+                <!-- align items center allow to verticaly align rows         -->
                 <div class="col-3 offset-4 order-sm-last col-sm-2 ">
-                    <h5 class="list-style">Links</h5>
+                    <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
@@ -78,7 +79,11 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-6 order-sm-first col-sm-4">
+
+
+        <div class="col-6 order-sm-first col-sm-4 align-self-center"> 
+            <!-- align self center allow verticaly align the column in the row -->
+
                     <h5>Our Address</h5>
                     <address>
 		              121, Clear Water Bay Road<br>
@@ -100,7 +105,8 @@
                     </div>
                 </div>
            </div>
-           <div class="row justify-content-center">             
+           <div class="row justify-content-center">  
+            <!-- justfy content center allow to position the unique column to the midle of the row             -->
                 <div class="col-auto">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
